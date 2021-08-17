@@ -105,7 +105,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="User.cs" />
+    <Compile Include="Department.cs" />
+    <Compile Include="Estate.cs" />
+    <Compile Include="Responsible.cs" />
     <Compile Include="UserContext .cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

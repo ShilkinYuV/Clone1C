@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Clone1C
 {
-    public class User
+    //Класс отделов
+    class Department
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public int Age { get; set; }
+        public string NameDepartment { get; set; }
+        public string Adress { get; set; }
     }
 }

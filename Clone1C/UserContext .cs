@@ -13,6 +13,8 @@ namespace Clone1C
             : base("DbConnection")
         { }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Responsible> Responsibles { get;  set; }
+        public DbSet<Estate> Estates { get; set; }
     }
 }
